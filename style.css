@@ -56,21 +56,30 @@ nav {
     margin-top: 10px;
 }
 aside {
-    width: 30%;
+    width: 31%;
+    height: auto;
     padding: 15px;
-    margin-top: 15px;
     float: right;
     background-color: aqua;
     border: 1px solid black;
 }
 
 .tri{
-    display: inline-block;
-    width: 20%;
-    height: 100px;
+    display: inline-flex;
+    width: 275px;
+    height: 200px;
     padding: 10px;
     border: 1px solid black;
 }
 #tri{
-    /* display: inline-block; */
+    height: 200px;
+}
+
+#right{
+    display: grid;
+}
+
+#down{
+    border: 1px solid black;
+    margin: 30px 10px 0px 0px;
 }
