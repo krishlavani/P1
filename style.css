@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: rgb(173, 242, 238);
+    text-align: center;
 }
 
 #head {
@@ -16,7 +17,7 @@ header h1 {
 }
 
 #hero {
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 #hero img {
@@ -25,16 +26,12 @@ header h1 {
     border-radius: 10px;
 }
 
-div {
-    background-color: aqua;
-}
-
 ul {
     float: right;
 }
 
 a {
-    background-color: aqua;
+    background-color: lightblue;
     color: black;
     border: 2px solid black;
     padding: 10px 20px;
@@ -61,26 +58,39 @@ nav {
 }
 
 aside {
-    width: 31%;
-    height: 345px;
+    width: 25%;
     padding: 15px;
     float: right;
-    background-color: aqua;
+    margin-right: 10px;
     border: 1px solid black;
 }
 
-#tri1, #tri2, #tri3 {
-    display: inline-flex;
-    width: 275px;
-    height: 200px;
+aside div img {
+    height: auto;
+    width: 100%;
+}
+
+#tri1,
+#tri2,
+#tri3 {
+    width: 29%;
+    height: auto;
     padding: 10px;
+    margin: 10px 0 0 10px;
     border: 1px solid black;
 }
 
 #tri {
-    height: 200px;
+    display: inline-flex;
+    height: auto;
 }
 
+#img1 img,
+#img2 img,
+#img3 img {
+    height: auto;
+    width: 100%;
+}
 
 #right {
     display: grid;
@@ -88,7 +98,11 @@ aside {
 
 #down {
     border: 1px solid black;
-    margin: 30px 10px 0px 0px;
+    height: auto;
+    width: 94%;
+    margin: 30px 10px 0 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
@@ -97,4 +111,10 @@ footer {
     color: white;
     padding: 10px;
     margin-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+        height: auto;
+    }
 }
