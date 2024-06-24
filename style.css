@@ -2,26 +2,30 @@ body {
     background-color: white;
 }
 
-#head{
+#head {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 98.82%;
+    background-color: grey;
+    box-shadow: 0px 10px 10px black;
 }
 
-header h1{
+header h1 {
     padding-left: 50px;
 }
 
-#hero{
-    padding: 10px 50px;
+#hero {
+    padding: 10px 10px;
 }
 
-#hero img{
+#hero img {
     width: 100%;
     height: 500px;
     border-radius: 10px;
 }
 
-div{
+div {
     background-color: aqua;
 }
 
@@ -50,36 +54,47 @@ nav {
     padding-right: 50px;
 }
 
-#div2{
+#div2 {
     text-align: center;
     padding: 20px;
     margin-top: 10px;
 }
+
 aside {
     width: 31%;
-    height: auto;
+    height: 345px;
     padding: 15px;
     float: right;
     background-color: aqua;
     border: 1px solid black;
 }
 
-.tri{
+#tri1, #tri2, #tri3 {
     display: inline-flex;
     width: 275px;
     height: 200px;
     padding: 10px;
     border: 1px solid black;
 }
-#tri{
+
+#tri {
     height: 200px;
 }
 
-#right{
+
+#right {
     display: grid;
 }
 
-#down{
+#down {
     border: 1px solid black;
     margin: 30px 10px 0px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
 }
